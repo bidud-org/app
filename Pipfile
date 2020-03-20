@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+doit = "*"
+pyinstaller = "*"
+autopep8 = "*"
+mypy = "*"
+
+[packages]
+bencode-py = "*"
+tmdbsimple = "*"
+
+[requires]
+python_version = "3.6"
